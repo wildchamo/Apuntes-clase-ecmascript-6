@@ -17,9 +17,13 @@ newFunction2();
 newFunction2("Luis","20", "COl");
 
 
-//template literal
+//template literal antes
 
 let hello="hello";
 let world="world";
 let epicPhrase=hello + ""+ world;
 console.log(epicPhrase);
+
+//template literal ahora!
+let epicPhrase2=  `${hello} ${world}`;
+console.log(epicPhrase2)
