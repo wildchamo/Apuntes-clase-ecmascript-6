@@ -11,4 +11,15 @@ function newFunction(name,age,country){
 //es6 
 function newFunction2(name="Jose",age="19",country="COl"){
     console.log(name, age, country);
-}
+};
+
+newFunction2();
+newFunction2("Luis","20", "COl");
+
+
+//template literal
+
+let hello="hello";
+let world="world";
+let epicPhrase=hello + ""+ world;
+console.log(epicPhrase);
