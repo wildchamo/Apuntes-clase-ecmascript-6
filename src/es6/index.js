@@ -26,4 +26,4 @@ console.log(epicPhrase);
 
 //template literal ahora!
 let epicPhrase2=  `${hello} ${world}`;
-console.log(epicPhrase2)
+console.log(epicPhrase2);
