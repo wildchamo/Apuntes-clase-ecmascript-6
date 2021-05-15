@@ -18,7 +18,31 @@ let person= {
 console.log(person.name,person.age, person.country);
 
 //ec6
-let{name,age} =person;
-
-
+let{ name,age} =person;
 console.log(name,age);
+
+
+//spread operator
+let team1 =['Oscar','Julian', 'Ricardo']
+let team2= ['Valeria','Jessica','Camila']
+
+let education = ['David', ...team1,...team2];
+console.log(education);
+
+
+//let vs var
+
+{
+    var global ="Global var";
+}
+
+{
+    let goblalLet="Global let"; 
+}
+
+console.log(global);
+console.log(globalLet);
+
+
+//no puedes cambiar el valor de const!
+const varA= 'b';
