@@ -48,3 +48,8 @@ const helloPromise = () =>{
 helloPromise()
 .then(response=> console.log(response))
 .catch(error=>  console.log(error));
+
+
+let a= 1;
+let a=2;
+console.log(a)
