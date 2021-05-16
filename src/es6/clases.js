@@ -18,4 +18,24 @@ console.log(hello());
 
 
 
+//generador
+
+function* helloWorld(){
+    if(true){
+        yield 'Hello, ';
+    }
+    if(true){
+        yield 'World';
+    }
+};
+
+const generadorHello= helloWorld();
+console.log(generadorHello.next().value);
+
+console.log(generadorHello.next().value);
+
+console.log(generadorHello.next().value);
+
+
+
 
